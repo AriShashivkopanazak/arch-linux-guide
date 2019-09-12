@@ -1,3 +1,8 @@
+Gui stuff
+<br>
+  
+  
+  
   set password for root account
                         passwd
         Make new user

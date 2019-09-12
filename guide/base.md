@@ -1,5 +1,5 @@
-Install Base System
-                partition disks
+# Installing the Base System
+partition disks
                                 fdisk /dev/sdX
                 format disks
                         mkfs.ext4 /dev/sdX<any partition that is not swap space>
