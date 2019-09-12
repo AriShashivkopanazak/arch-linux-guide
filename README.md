@@ -1,4 +1,4 @@
-# Arch Linux
+# Arch Linux Guide
 <br>
 <a href = "https://github.com/AriShashivkopanazak/How-to-Install-Arch-Linux/blob/master/guide/base.md">Base System Guide</a>
 <br>
