@@ -2,7 +2,7 @@
 ### Legend:
 * v = Applies solely to VM users 
 * h = Applies solely to if you are installing on your Host machine
-* ## = Comments these are pasteable into your terminal, it will not effect anything
+* '##' = Comments these are pasteable into your terminal, it will not effect anything
 
 ### Partition the Disks
     # fdisk /dev/sda ## this refers to your primary disk
