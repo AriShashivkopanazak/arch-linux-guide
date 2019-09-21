@@ -24,16 +24,16 @@ Further Reading:
 * See also for different file systems: [Btrfs](http://wiki.archlinux.org/index.php/Btrfs).
 ### Mount Filesystem
     # mount /dev/sda1 /mnt
-### Chroot Into /mnt
-    # arch-chroot /mnt
 ### Install Base System
     # pacstrap /mnt base base-devel
+### Chroot Into /mnt
+    # arch-chroot /mnt
 ### Generate Fstab File
     # genfstab -U /mnt >> /mnt/etc/fstab
 ### Chroot into system
     # arch-chroot /mnt
 ### Set Timezone
-    # ln -sf /usr/share/zoneinfo/<Region you live in, e.g America>/<City you reside in, e.g Los_Angeles> /etc/localtime
+    # ln -sf /usr/share/zoneinfo/America/Los_Angeles /etc/localtime
     # hwclock --systohc --utc
 ### Set locale
     # nano /etc/locale.gen
@@ -47,7 +47,7 @@ Further Reading:
     # echo <name> > /etc/hosts
 ### Install Grub
     # pacman -S grub
-    # grub-install /dev/sdX
+    # grub-install /dev/sda
     # grub-mkconfig -o /boot/grub/grub.cfg
 ### Where to next?
 don't reboot yet!  install a [gui](https://github.com/AriShashivkopanazak/arch-linux-guide/blob/master/guide/gui.md) and configure the [network](https://github.com/AriShashivkopanazak/arch-linux-guide/blob/master/guide/network.md) while you still have a wired connection!
