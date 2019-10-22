@@ -27,7 +27,7 @@ Further Reading:
 ### Install Base System
     # pacstrap /mnt base base-devel
 ### Chroot Into /mnt
-    # arch-chroot /mnt
+    # arch-chroot /mnt linux ## this is the minimal requirements, however, you can use "base base-devel" for even more tools
 ### Generate Fstab File
     # genfstab -U /mnt >> /mnt/etc/fstab
 ### Chroot into system
