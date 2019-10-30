@@ -1,10 +1,10 @@
 # Install a GUI
 ## If you have a graphics card, install their driver
-## AMD
+### AMD
     # pacman -S xf86-video-amdgpu
-## Intel
+### Intel
     # pacman -S xf86-video-intel
-## Nvidia
+### Nvidia
     # pacman -S xf86-video-nouveau
 ## KDE
 ### Make a New User
