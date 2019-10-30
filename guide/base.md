@@ -1,8 +1,4 @@
 # Installing the Minimal Base System
-### Legend: 
-* h = Applies solely to if you are installing on your Host machine
-* '##' = Comments these are pasteable into your terminal, it will not effect anything
-
 ### Partition the Disks
     # fdisk /dev/sda ## this refers to your primary disk, 
     Recommended: make one partition, unless you know what you're doing 
