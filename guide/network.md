@@ -19,7 +19,7 @@
 ## If You have a wireless adapter
 
 ### add these packages to your pacstrap or install them via pacman -S
-    iw wpa_supplicant dialog DHCP netctl
+    iw wpa_supplicant dialog dhcpcd netctl
     
 ### excecute "wifi-menu" to get wifi
     # wifi-menu
