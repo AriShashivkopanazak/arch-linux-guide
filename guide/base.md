@@ -1,6 +1,5 @@
 # Installing the Minimal Base System
-### Legend:
-* v = Applies solely to VM users 
+### Legend: 
 * h = Applies solely to if you are installing on your Host machine
 * '##' = Comments these are pasteable into your terminal, it will not effect anything
 
@@ -18,16 +17,11 @@ Further Reading:
 ### Mount Filesystem
     # mount /dev/sda1 /mnt
 ### Install Base System
-    # pacstrap /mnt linux grub
-### Chroot Into /mnt
-    # arch-chroot /mnt
+    # pacstrap /mnt linux grub pacman
 ### Generate Fstab File
     # genfstab -U /mnt >> /mnt/etc/fstab
 ### Chroot into system
     # arch-chroot /mnt
-### Set Timezone
-    # ln -sf /usr/share/zoneinfo/America/Los_Angeles /etc/localtime
-    # hwclock --systohc --utc
 ### Name System
     # echo <name> > /etc/hostname
     # echo <name> > /etc/hosts
