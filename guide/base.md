@@ -22,9 +22,6 @@ Further Reading:
     # genfstab -U /mnt >> /mnt/etc/fstab
 ### Chroot into system
     # arch-chroot /mnt
-### Name System
-    # echo <name> > /etc/hostname
-    # echo <name> > /etc/hosts
 ### Configure Grub
     # grub-install /dev/sda
     # grub-mkconfig -o /boot/grub/grub.cfg
