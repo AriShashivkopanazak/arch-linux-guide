@@ -17,4 +17,10 @@
       nameserver 8.8.8.8  ## optional, this is the backup DNS, you may have as many as you want
     # ping www.github.com
 ## If You have a wireless adapter
+
+### add these packages to your pacstrap or install them via pacman -S
+    iw wpa_supplicant dialog DHCP netctl
+    
+### excecute "wifi-menu" to get wifi
+    # wifi-menu
     
