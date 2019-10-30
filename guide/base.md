@@ -1,4 +1,9 @@
 # Installing the Minimal Base System
+### Check if You Have Internet
+    # ping www.github.com
+### If you Do Not Have Internet, Run "wifi-menu"
+    # wifi-menu
+    # ping www.github.com
 ### Partition the Disks
     # fdisk /dev/sda ## this refers to your primary disk, 
     Recommended: make one partition, unless you know what you're doing 
