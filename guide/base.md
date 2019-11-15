@@ -17,7 +17,7 @@ Further Reading:
 ### Mount Filesystem
     # mount /dev/sda1 /mnt
 ### Install Base System
-    # pacstrap /mnt base linux grub pacman sed
+    # pacstrap /mnt base base-devel linux grub
 ### Generate Fstab File
     # genfstab -U /mnt >> /mnt/etc/fstab
 ### Chroot into system
