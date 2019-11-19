@@ -57,3 +57,10 @@
     Add line "exec dwm" into it, save it, and quit
 ### initiate "startx" as user
     # startx
+## Known fixes to Bugs in X
+### Xorg error (1)
+    find the pid of systemd init
+    # htop
+    kill the process
+    # kill <PID>
+    
