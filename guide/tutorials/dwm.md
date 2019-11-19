@@ -15,5 +15,6 @@
     # git add -A
     # git commit
     # git checkout master
+    # make clean && rm -f config.h && git reset --hard origin/master
     # git merge dracula
     # sudo make clean install
