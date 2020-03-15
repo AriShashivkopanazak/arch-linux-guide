@@ -10,5 +10,5 @@ configuring the locales
     # ln -sf /usr/share/zoneinfo/America/Los_Angeles /etc/localtime
     # hwclock --systohc --utc
 ### Name System
-    # echo <name> > /etc/hostname
-    # echo <name> > /etc/hosts
+    # echo <name> >> /etc/hostname
+    # echo <name> >> /etc/hosts
