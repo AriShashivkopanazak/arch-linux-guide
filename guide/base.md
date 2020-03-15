@@ -27,4 +27,4 @@ Further Reading:
     # grub-mkconfig -o /boot/grub/grub.cfg
 * Note: This is the way to Configure grub if you are on a BIOS board, If you are using UEFI, see [here](https://github.com/AriShashivkopanazak/arch-linux-guide/blob/master/guide/uefi.md)
 ### Where to next?
-don't reboot yet! Set your [timezone and locale](https://github.com/AriShashivkopanazak/arch-linux-guide/blob/master/guide/setup.md), install a [gui](https://github.com/AriShashivkopanazak/arch-linux-guide/blob/master/guide/gui.md), and configure the [network](https://github.com/AriShashivkopanazak/arch-linux-guide/blob/master/guide/network.md) while you still connected to the network!
+don't reboot yet! Set your [timezone and locale](https://github.com/AriShashivkopanazak/arch-linux-guide/blob/master/guide/locale.md), install a [gui](https://github.com/AriShashivkopanazak/arch-linux-guide/blob/master/guide/gui.md), and configure the [network](https://github.com/AriShashivkopanazak/arch-linux-guide/blob/master/guide/network.md) while you still connected to the network!
