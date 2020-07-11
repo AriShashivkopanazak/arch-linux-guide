@@ -41,4 +41,8 @@
 ### Easy Way: Excecute "wifi-menu" to get wifi
     # wifi-menu
     # ping www.google.com
-    
+
+## If you want to connect to wifi on boot
+    # wpa_passphrase "ESSID" >> /etc/wpa_supplicant/wpa_supplicant-wlan0.conf
+    # systemctl enable wpa_supplicant@wlan0.service
+    # systemctl enable dhcpcd@wlan0.service
